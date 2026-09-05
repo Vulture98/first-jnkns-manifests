@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: localhost:5000/myapp:BAD-DEPLOY
+        image: localhost:5000/myapp:13d8a25aa8e3acc3a95dc9326de214447514764a
         ports:
         - containerPort: 3000
         resources:
