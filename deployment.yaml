@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: localhost:5000/myapp:44ffe6bc746371baed4c7a7e506b96028f309c32
+        image: localhost:5000/myapp:c07dc67a149ed387f7c14153fd972d7ea60394e5
         ports:
         - containerPort: 3000
         resources:
